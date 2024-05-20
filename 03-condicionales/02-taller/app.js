@@ -59,11 +59,11 @@ let menos5 = (parseFloat(totalescritorios)) - (parseFloat(diez));
 let menos10 = (parseFloat(totalescritorios)) - (parseFloat(veinte));
 let mas10 = (parseFloat(totalescritorios)) - (parseFloat(cuarenta));
 if (total >= 5 & total <10){
-    console.log("el precio normal " + totalescritorios + " pero con los descuentos su precio es " + menos10)
+    console.log("precio normal " + totalescritorios + " con descuento " + menos10)
 }else if (total > 10){
-    console.log("el precio normal seria " + totalescritorios + " pero con los descuentos su precio es " + mas10)
+    console.log("precio normal" + totalescritorios + "con descuento" + mas10)
 }else {
-    console.log("el precio normal seria " + totalescritorios + " pero con los descuentos su precio es " + menos5)
+    console.log("precio normal  " + totalescritorios + " pero descuento " + menos5)
 }
 
 //Punto 5 (listado de frutas)
