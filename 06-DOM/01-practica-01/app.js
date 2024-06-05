@@ -5,7 +5,7 @@ const miInput = document.getElementById("boton");
 //Paso 2. funciones 
 function cambiarValue (){
     console.log(miInput.value)
-    miInput.value = 'Lanzamiento exitoso! 😊'
+    miInput.value = 'Lanzamiento exitoso!'
 }
 
 //Paso 3. eventos 
@@ -31,3 +31,32 @@ botonesColores[0].addEventListener('click', pintarCaja);
 botonesColores[1].addEventListener('click', pintarCaja);
 botonesColores[2].addEventListener('click', pintarCaja);
 botonesColores[3].addEventListener('click', pintarCaja);
+
+//Ejercicio 4 (mover circulo)
+//1. Variables 
+const pelota = document.querySelector('#circulo');
+const btnMover = document.querySelector('#btnMover'); 
+let e = 0;
+
+console.log(pelota)
+console.log(btnMover)
+
+//2. Funciones
+function mover (){
+
+    if (e == 0){
+        pelota.style.marginLeft = '400px'; 
+        pelota.style.backgroundColor = 'yellow'; 
+        pelota.style.transitionDuration = '.5s'; 
+        e=1;
+    }else{
+        pelota.style.marginLeft = '0px'; 
+        pelota.style.backgroundColor = '#232323'; 
+        pelota.style.transitionDuration = '.5s'; 
+        e=0;
+    } 
+    } 
+     
+//3. eventos
+btnMover.addEventListener('click', mover); 
+
