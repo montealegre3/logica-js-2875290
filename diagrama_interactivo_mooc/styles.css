@@ -1,0 +1,136 @@
+.logoImg {
+    width: 150px;
+    padding: 8px 20px;
+    border: none;
+    box-shadow: none;
+}
+
+.contenedor1 {
+    max-width: 100%;
+    margin: 0;
+}
+
+header.contenedor1 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+header button{
+    font-size: 15px;
+    justify-content: space-between;
+    padding: 12px 15px;
+    border: rgb(100, 151, 168);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-weight: bold;
+    background-color:rgb(100, 151, 168);
+    color: white;
+}
+
+header button:hover {
+   background-color: rgb(248, 242, 213);
+   border: rgb(248, 242, 213);
+   color:rgb(100, 151, 168) ;
+}
+
+h1 {
+    font-family: courier;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(100, 151, 158);
+    text-decoration:underline;
+}
+
+
+
+.galeria-contenedor1 {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 10px;
+    margin: 0 20px;
+    background-color: rgb(157, 93, 218);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(43, 43, 43);
+}
+
+img {
+    max-width: 600px;
+    max-height: 700px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.logoImg {
+    width: 150px;
+    padding: 8px 20px;
+    border: none;
+    box-shadow: none;
+}
+
+.galeria {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.galeria {
+    text-align: center; 
+    margin-top: 20px; 
+    padding: 20px; 
+    border: 2px solid #ccc; 
+    background-color: #f0f0f0; 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+
+.galeria .lista-imagenes img {
+    display: block; 
+    width: 100%; 
+    height: auto; 
+    border: 2px solid #ccc; 
+    padding: 5px; 
+    margin-bottom: 10px; 
+    background-color: #fff; 
+}
+
+.galeria button {
+    margin-top: 10px; 
+    padding: 10px 20px; 
+    background-color: #a483bb; 
+    color: #f8f1d3; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.galeria button:hover {
+    background-color: #afd093; 
+}
+
+.diagrama {
+    justify-content: center;
+}
+
